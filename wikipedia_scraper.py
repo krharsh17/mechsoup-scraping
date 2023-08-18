@@ -7,7 +7,7 @@ def main():
 
     title = browser.page.select_one('span.mw-page-title-main')
 
-    print(title.contents)
+    print("title: " + title.string)
 
     references = browser.page.select_one('ol.references')
 

@@ -50,6 +50,7 @@ def navigate():
 
     forms_sandbox_link = hockey_list_item.select_one('a')
 
+
     browser.follow_link(forms_sandbox_link)
 
     print(browser.url)
